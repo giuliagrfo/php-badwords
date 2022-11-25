@@ -19,7 +19,6 @@
     $censored = str_ireplace($badword, '***', $paragraph);
     echo $censored . ' is '. strlen($censored) . ' characters long';
 
-
     ?>
 
 </body>
